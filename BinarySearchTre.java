@@ -1,4 +1,4 @@
-public class BinarySearchTre {
+public class BinarySearchTree {
     TreNode root;
 
     public void setInn(String e) {
@@ -112,7 +112,7 @@ class Queue{
 }
 
 
-class TreNode{
+class TreeNode{
     String element;
     TreNode parent;
     TreNode leftChild;
@@ -130,7 +130,7 @@ class TreNode{
 class MainClass{
 
     public static void main(String[] args) {
-        BinarySearchTre bts = new BinarySearchTre();
+        BinarySearchTree bts = new BinarySearchTree();
         String[] listOfWords = new String[]{"hode", "ben", "legg", "albue", "hake", "tå", "arm", "tann"};
 
 
