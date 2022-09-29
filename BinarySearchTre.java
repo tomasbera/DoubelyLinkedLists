@@ -45,6 +45,8 @@ public class BinarySearchTre {
         return findHeight(root);
     }
 
+    //unfinished 
+    /*
     public void printLevelOrdered(){
         TreNode[] listOfAll = new TreNode[14];
         int i = 0;
@@ -69,7 +71,7 @@ public class BinarySearchTre {
     public void printTree(TreNode n){
 
     }
-}
+}*/
 
 
 class Queue{
